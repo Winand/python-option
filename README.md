@@ -42,3 +42,7 @@ Implementation of Scala Option in Python.
     # filter option value
     print(Option(9).filter(_ > 50).get_or_else(0))  # 0
 ```
+
+# See also
+- [Is there a Python equivalent for Scala's Option or Either?](https://stackoverflow.com/q/22992433)
+- _returns_ [Maybe container](https://github.com/dry-python/returns?tab=readme-ov-file#maybe-container)
